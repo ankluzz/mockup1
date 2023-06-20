@@ -22,46 +22,44 @@ body{
 
     color: white;
     font-family: Tahoma, sans-serif;
-    background-image: url('img/background.png');
+    background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-position: center top ;    
+    background-size: cover;
 
 }
 
 header {
     max-width: 960px;
     margin: 5vh auto;
-    position: relative;
+    display: flex;
     height: 200px;
+    justify-content: space-between;
 
 }
 
 .banner {
 
-    border: 5px solid lime;
     position: relative;
     left: 30px;
     text-align: center;
+    padding-top: 120px;
 
 }
 
 .palm {
  position: absolute;
+ bottom: 0px;
+ right: 10px;
+
 }
 
-.logo {
-    position: absolute; 
-}
+
 
 .contact {
     line-height: 1.4;
-    border: 5px solid lime;
-    position: relative;
-    top: 160px;
-    right: 50px;
-    width: fit-content;
+    padding-top: 120px;
 
- 
 }
 
 
